@@ -1,11 +1,10 @@
 import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import './index.css'
 
-function Pricecard() {
-  return (
-    <div>
-    <h1>Pricecard</h1>
-    </div>
-  )
-}
-
-export default Pricecard
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
