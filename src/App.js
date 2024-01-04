@@ -1,5 +1,5 @@
 import React from "react";
-import Pricecard from "./components/Pricecard.jsx";
+import Pricecard from "./component/Pricecard"
 
 function App() {
   let data = [
